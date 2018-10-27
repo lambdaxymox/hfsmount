@@ -14,7 +14,7 @@ config = dict(
     scripts = [],
     name = 'hfsmount',
     entry_points = {
-        'console_scripts': [ 'hfsmount = hfsmount.hfsmount:main' ]
+        'console_scripts': [ 'hfsmount = hfsmount:main' ]
     }
 )
 
