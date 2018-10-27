@@ -9,12 +9,12 @@ config = dict(
     author_email = 'stallmanifold@gmail.com',
     version = '0.1',
     license = "UNLICENSE",
-    package_dir = {'': ''},
+    package_dir = {'': 'src'},
     packages = ['hfsmount'],
     scripts = [],
     name = 'hfsmount',
     entry_points = {
-        'console_scripts': [ 'hfsmount = hfsmount:main' ]
+        'console_scripts': [ 'hfsmount = hfsmount.hfsmount:main' ]
     }
 )
 
