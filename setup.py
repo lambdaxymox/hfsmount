@@ -8,12 +8,11 @@ config = dict(
     download_url = 'https://github.com/stallmanifold/hfsmount.git',
     author_email = 'stallmanifold@gmail.com',
     version = '0.1',
-    license = "LICENSE-APACHE",
+    license = "UNLICENSE",
     package_dir = {'': ''},
     packages = ['hfsmount'],
     scripts = [],
     name = 'hfsmount',
-    tests_require = ['pytest', 'hypothesis'],
     entry_points = {
         'console_scripts': [ 'hfsmount = hfsmount:main' ]
     }
